@@ -1,0 +1,17 @@
+#container{
+    width: 1000px;
+    height: 550px;
+    background-image: linear-gradient(rgba(0,0,0,0,3),rgba(0,0,0,0,3)), url(img.jpg);
+    margin: 20px auto;
+}
+
+#calculator{
+    background-color: #121213;
+    width: 320px;
+    height: 520px;
+    margin: 0 auto;
+    top: 20px;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 15px 5px 0 rgba(0,0,0,0.2), 0 6px 5px 0 rgba(0,0,0,0.2);
+}
