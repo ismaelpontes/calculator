@@ -1,3 +1,7 @@
+body{
+    font-family: 'Open Sans',sans-serif;
+}
+
 #container{
     width: 1000px;
     height: 550px;
@@ -6,7 +10,7 @@
 }
 
 #calculator{
-    background-color: #121213;
+    background-color: #d5d6d8;
     width: 320px;
     height: 520px;
     margin: 0 auto;
@@ -14,4 +18,136 @@
     position: relative;
     border-radius: 10px;
     box-shadow: 0 15px 5px 0 rgba(0,0,0,0.2), 0 6px 5px 0 rgba(0,0,0,0.2);
+}
+
+#result{
+    background-color: #bcc2cf;
+    height: 120px;
+    width: 310px;
+    top: 5px;
+    margin: 0 auto;
+    position: relative;
+    border-radius: 10px;
+}
+
+#history{
+    text-align: right;
+    height: 20px;
+    margin: 0 20px;
+    padding-top: 20px;
+    font-size: #919191;
+}
+
+#output{
+    text-align: right;
+    height: 60px;
+    margin: 10px 20px;
+    font-size: 30px;
+}
+
+#keyboard{
+    height: 400px;
+}
+
+.operator, .number, .empty{
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    border-radius: 50px;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.number, .empty{
+    background-color: #eaedef;
+}
+
+.number:hover {
+    background-color: #b4d0e2;
+}
+
+.number, .empty, .operator{
+    cursor: pointer;
+}
+
+.operator:active, .number:active{
+    font-size: 13px;
+}
+
+.operator:focus, .number:focus, .empty:focus{
+    outline: 0;
+}
+
+button:nth-child(1){
+    font-size: 20px;
+    background-color: #f04330;
+}
+
+button:nth-child(1):hover{
+    background-color: #e02f1c;
+}
+
+button:nth-child(2){
+    font-size: 20px;
+    background-color: #F57F33;
+}
+
+button:nth-child(2):hover{
+    background-color: #da6c23;
+}
+
+button:nth-child(3){
+    font-size: 20px;
+    background-color: #c7e426;
+}
+
+button:nth-child(3):hover{
+    background-color: #b6d600;
+}
+
+button:nth-child(4){
+    font-size: 20px;
+    background-color: #44F2ED;
+}
+
+button:nth-child(4):hover{
+    background-color: #32B4DB;
+}
+
+button:nth-child(8){
+    font-size: 20px;
+    background-color: #44F2ED;
+}
+
+button:nth-child(8):hover{
+    background-color: #32B4DB;
+}
+
+button:nth-child(12){
+    font-size: 20px;
+    background-color: #44F2ED;
+}
+
+button:nth-child(12):hover{
+    background-color: #32B4DB;
+}
+
+button:nth-child(16){
+    font-size: 20px;
+    background-color: #44F2ED;
+}
+
+button:nth-child(16):hover{
+    background-color: #32B4DB;
+}
+
+button:nth-child(20){
+    font-size: 20px;
+    background-color: #41d44d;
+}
+
+button:nth-child(20):hover{
+    background-color: #17f329;
 }
